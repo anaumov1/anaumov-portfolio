@@ -7,7 +7,7 @@ function Resume() {
         className="resume"
         target="blank"
       >
-        Download
+        Click Here to View
       </a>
       <div className="resume-body">
         <ul className="skills">

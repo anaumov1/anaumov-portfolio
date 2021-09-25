@@ -1,7 +1,7 @@
 function About({ user }) {
   return (
     <div className="section">
-      <p className="section-title">Alexandru Naumov</p>
+      <p className="section-title">Hi and Welcome To My Page</p>
       <div className="about">
         <div className="avatar">
           <img src={user.avatar_url} alt="avatar" className="avatar-img" />

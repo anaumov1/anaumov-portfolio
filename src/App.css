@@ -1,11 +1,11 @@
 :root {
-  --nav-color: rgb(233, 217, 194);
-  --body-color: rgb(242, 243, 246);
+  --nav-color: #f36337;
+  --body-color: #262833;
   --icon-hover: rgba(223, 158, 37, 0.7);
   --dark-hover: rgba(19, 11, 0, 0.815);
   --dark-hover-gh: rgba(63, 37, 2, 0.815);
   --nav-tab-underline: 1px solid red;
-  --resume-link: rgb(0, 38, 100);
+  --resume-link: #f0f0f1;
 }
 .header {
   display: flex;
@@ -19,6 +19,7 @@
   padding-left: 3rem;
   font-size: 2rem;
   font-weight: 600;
+  color: #f0f0f1;
 }
 .nav {
   display: flex;
@@ -26,6 +27,7 @@
   list-style: none;
   padding-right: 3rem;
   font-weight: 500;
+  color: #f0f0f1;
 }
 
 .nav-link {
@@ -69,15 +71,18 @@
   min-height: 80vh;
 }
 .section-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
   font-style: italic;
+  color: #f0f0f1;
 }
 
 .about {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #f0f0f1;
+  font-size: 1rem;
 }
 
 .avatar {
@@ -85,6 +90,7 @@
 }
 .avatar-img {
   border-radius: 50%;
+  border: solid 3px #f36337;
 }
 
 .bio {
@@ -96,7 +102,7 @@
 }
 
 .resume {
-  color: var(--resume-link);
+  color: #f36337;
   font-weight: 500;
 }
 .resume:hover {
@@ -109,10 +115,12 @@
 }
 .skills {
   list-style-type: circle;
+  color: #f0f0f1;
 }
 .skills-title {
   font-size: 1.2rem;
   font-weight: 500;
+  color: #f0f0f1;
 }
 .contact {
   display: flex;
@@ -125,12 +133,14 @@
   font-weight: 500;
   text-align: center;
   margin-bottom: 10px;
+  color: #f0f0f1;
 }
 input,
 textarea {
   line-height: 1.5rem;
   border-radius: 5px;
   margin-bottom: 10px;
+  border: 3px solid #f36337;
 }
 
 .submit-btn {
@@ -139,8 +149,8 @@ textarea {
   border-radius: 5px;
   width: 10%;
   height: 2rem;
-  background-color: var(--dark-hover);
-  color: var(--icon-hover);
+  background-color: #f36337;
+  color: #f0f0f1;
 }
 
 .submit-btn:hover {
@@ -151,7 +161,8 @@ textarea {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-content: center;
   width: 80%;
 }
 
@@ -160,12 +171,20 @@ textarea {
 }
 .card-img {
   width: 300px;
-  height: auto;
-  object-fit: cover;
-  margin: 1rem;
+  height: 180px;
+  border-radius: 20px;
+  border: 3px solid #f36337;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 .img-div:hover .card-img {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .contents {
@@ -181,9 +200,9 @@ textarea {
 }
 .project-title {
   text-decoration: none;
-  color: var(--dark-hover);
+  color: #f36337;
 }
 .card-link {
-  color: var(--dark-hover-gh);
+  color: #f36337;
   font-size: 4rem;
 }
