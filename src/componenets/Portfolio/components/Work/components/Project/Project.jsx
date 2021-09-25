@@ -1,8 +1,7 @@
-import { useState } from 'react'
-import { FaGithub } from 'react-icons/fa'
+import { useState } from "react";
 
 function Project({ repo }) {
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(false);
   return (
     <div
       className="img-div"
@@ -15,13 +14,10 @@ function Project({ repo }) {
           <a href={repo.live_url} target="blank" className="project-title">
             <p>{repo.name}</p>
           </a>
-          <a href={repo.repo_url} className="card-link" target="blank">
-            <FaGithub />
-          </a>
         </div>
       ) : null}
     </div>
-  )
+  );
 }
 
-export default Project
+export default Project;
