@@ -12,10 +12,10 @@
     "project_image": "https://github.com/anaumov1/Destination-Unknown/blob/develop/assets/images/Landingpg.JPG?raw=true"
   },
   {
-    "name": "Note-Taker",
-    "repo_url": "https://github.com/anaumov1/an-note-taker",
-    "live_url": "https://arcane-bastion-63727.herokuapp.com/notes",
-    "project_image": "https://github.com/anaumov1/an-note-taker/blob/main/public/assets/images/screenshot.PNG?raw=true"
+    "name": "Social-Visa",
+    "repo_url": "https://github.com/hsafiya/Social-VISA",
+    "live_url": "https://powerful-plateau-66986.herokuapp.com/",
+    "project_image": "https://raw.githubusercontent.com/hsafiya/Social-VISA/develop/client/public/assets/screens/feed.PNG"
   },
   {
     "name": "Woprk-Day-Scheduler",
